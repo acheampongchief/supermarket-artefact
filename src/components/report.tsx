@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { Download, Calendar, TrendingUp, TrendingDown, Package, DollarSign, AlertTriangle, Users } from 'lucide-react';
+import { Download, Calendar, TrendingUp, TrendingDown, Package, DollarSign, AlertTriangle } from 'lucide-react';
 
 export function Reports() {
   const [reportPeriod, setReportPeriod] = useState('daily');
