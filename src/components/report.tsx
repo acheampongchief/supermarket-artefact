@@ -3,7 +3,7 @@ import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Cart
 import { Download, Calendar, TrendingUp, TrendingDown, Package, DollarSign, AlertTriangle } from 'lucide-react';
 
 export function Reports() {
-  const [reportPeriod, setReportPeriod] = useState('daily');
+  const [reportPeriod, setReportPeriod] = useState ('daily');
 
   const salesData = [
     { day: 'Mon', sales: 4200, items: 342 },
